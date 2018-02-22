@@ -222,3 +222,8 @@ footer.bottom {
 .react-minimap-contain .react-minimap-thumb {
   background-color: rgba(0, 255, 0, 0.2);
 }
+
+.react-minimap .react-minimap-thumb .react-minimap-content>div:first-child{
+  overflow: hidden !important;
+  display: none;
+}
